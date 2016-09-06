@@ -51,9 +51,9 @@ public class MainActivity extends AppCompatActivity {
         tl_main.setupWithViewPager(vp_main);
 
         tl_main.getTabAt(0).setIcon(R.drawable.selector_ico01);
-        tl_main.getTabAt(2).setIcon(R.drawable.selector_ico01);
-        tl_main.getTabAt(1).setIcon(R.drawable.selector_ico01);
-        tl_main.getTabAt(3).setIcon(R.drawable.selector_ico01);
+        tl_main.getTabAt(1).setIcon(R.drawable.selector_ico02);
+        tl_main.getTabAt(2).setIcon(R.drawable.selector_ico03);
+        tl_main.getTabAt(3).setIcon(R.drawable.selector_ico04);
 
         tl_main.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
